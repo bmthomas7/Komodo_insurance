@@ -78,7 +78,7 @@ namespace Dev_Team_Repo
         {
             foreach(DevTeam content in _listofteam)
             {
-                if(content.TeamMember == teamMember)
+                if(content.TeamMember.ToLower() == teamMember)
                 {
                     return content;
                 }

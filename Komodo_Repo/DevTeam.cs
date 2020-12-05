@@ -10,6 +10,7 @@ namespace Dev_Team_Repo
     {
         TeamMember = 1,
         IdNumber = 2,
+        pluralSight = 3,
     }
     // pogo //
     public class DevTeam
